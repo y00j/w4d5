@@ -1,0 +1,29 @@
+.sections {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 1px solid $light-gray;
+	position: relative;
+}
+
+.sections li {
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 10px;
+  padding-left: 7px;
+
+}
+
+.sections button {
+	background: none;
+	padding: 0px;
+	color: #000;
+	font-weight: normal;
+	border: none;
+  text-transform: none;
+  font-size: 10px;
+}
+
+.sections button:hover {
+	background-color: $lightest-gray;
+}

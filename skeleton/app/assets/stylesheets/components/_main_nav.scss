@@ -1,0 +1,43 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: baseline;
+}
+
+.left-nav > ul > li {
+  margin: 1px;
+  padding: 5px;
+
+}
+
+.right-nav > ul > li {
+  margin: 1px;
+}
+
+.right-nav > ul > li:last-of-type {
+  font-size: 14px;
+  padding: 5px;
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color: $lightest-gray;
+
+
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+
+}
